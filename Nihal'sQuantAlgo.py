@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 sp500_table = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
-tickers = sp500_table[0]['Symbol'].tolist()  # full list
+tickers = sp500_table[0]['Symbol'].tolist()
 
 # Backtest parameters
 start_date = '2022-01-01'
